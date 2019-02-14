@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="popup.css">
+      <style>
+        
+        #noId {
+          display: none;
+        }
+        #isId {
+          display: none;
+        }
+        
+      </style>
+    </head>
+    <body>
+      <div id="noId" class="form">
+          <img src="logo.png" id="logo">
+        <form class="login-form">
+          <input type="text" id="email" placeholder="Email Address" />
+          <input type="password" id="password" placeholder="Password" />
+          <button type="button" id="login">login <i id="spin" ></i> </button>
+          <p class="message"></p>
+        </form>
+      </div>
+
+      <div id="isId" class="form">
+          <img src="logo.png" id="logo">
+          <button id="loggedIn">logged in <i class="fa fa-check-circle" ></i> </button>
+          <p class="message">Your Next Payout is <strong id="PayoutNum"></strong></p>
+          <p id="currentRev"> Your Current Revenue</p>
+          <span id="RevNumber">NGN <strong id="RevMoney"></strong></span>
+          <p id="dashboardLink"><a href="https://dashboard.paystack.com/#/dashboard?period=30" target="_blank">Go to your main dashboard</a></p>
+      </div>
+      
+    
+      <script src="jquery.js"></script>
+      <script src="popup.js"></script>
+    </body>
+  </html>

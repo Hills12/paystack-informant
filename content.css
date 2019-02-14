@@ -1,0 +1,27 @@
+#goodInfo {
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 7px;
+    background: #41AA5E;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 10px 30px;
+    position: fixed;
+    z-index: 1000;
+    display: none;
+}
+
+#badInfo {
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 7px;
+    background: #BD362F;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 10px 30px;
+    position: fixed;
+    z-index: 1000;
+    display: none;
+}
